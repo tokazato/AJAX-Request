@@ -5,6 +5,7 @@ header {
 }
 h1 {
     color: rgb(17, 69, 78);
+    text-align: center;
 }
 button {
     display: block;
@@ -16,6 +17,7 @@ button {
     margin-left: 50px;
     cursor: pointer;
     transition: 0.3s ease;
+    outline: none;
 }
 button:hover {
     background-color: #fff;
@@ -23,7 +25,7 @@ button:hover {
     transition: 0.3s ease;
 }
 #itemsContainer {
-    padding: 0 calc(50% - 300px);
+    padding: 0 calc(50% - 250px);
 }
 .hide {
     display: none;
