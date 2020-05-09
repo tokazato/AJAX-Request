@@ -1,0 +1,30 @@
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h1 {
+    color: rgb(17, 69, 78);
+}
+button {
+    display: block;
+    padding: 12px 35px;
+    border-radius: 5px;
+    color: #fff;
+    background-color: rgb(20, 92, 105);
+    border: 1px solid rgb(20, 92, 105);
+    margin-left: 50px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+button:hover {
+    background-color: #fff;
+    color: rgb(20, 92, 105);
+    transition: 0.3s ease;
+}
+#itemsContainer {
+    padding: 0 calc(50% - 300px);
+}
+.hide {
+    display: none;
+}
